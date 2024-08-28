@@ -1,0 +1,1 @@
+web: gunicorn post-genius:app
