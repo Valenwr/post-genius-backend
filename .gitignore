@@ -1,2 +1,2 @@
 /.env
-/writing-assistant-env
+**/writing-assistant-env/
