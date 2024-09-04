@@ -1,0 +1,5 @@
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Generated Historical fact post for topic: Ancient Roman technology
+ERROR:root:Error generating content: Error in image generation: 500 Server Error: Internal Server Error for url: https://cloud.leonardo.ai/api/rest/v1/generations
