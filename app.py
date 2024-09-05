@@ -14,7 +14,7 @@ logging.basicConfig(filename='logs/app.log', level=logging.INFO)
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def get_completion(prompt, model="gpt-3.5-turbo", temperature=0.7, max_tokens=250):
+def get_completion(prompt, model="gpt-4o-mini", temperature=0.7, max_tokens=250):
     """
     Generates a completion from the OpenAI model based on the given prompt.
     """
